@@ -1,0 +1,126 @@
+<!---+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++  HTML  (BLOCK & LAYOUT)
++  Assignment No     :  13
++  Title             :  Create the web page as depicted below using blocks and layout.
++  Start Date        :  07/feb/2020
++  End Date          :  07/feb/2020
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        nav {
+            background-color: black;
+            height: 50px;
+            padding-top: 1px;
+            padding-left: 200PX;
+        }
+
+        a {
+            color: wheat;
+            text-decoration: none;
+            font-size: small;
+        }
+
+        article {
+            margin-left: 95px;
+            float: left;
+            width: 40%;
+            height: 250px;
+            margin-bottom: 90px;
+        }
+
+        aside {
+            margin-right: 240px;
+            float: right;
+            margin-bottom: 90px;
+            height: 250px;
+        }
+
+        input {
+            background-color: rgb(74, 87, 204);
+            float: right;
+            margin-right: 30px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        img {
+            float: right;
+            height: 250px;
+        }
+
+        span {
+            background-color: rgb(74, 87, 204);
+            border: 1px solid;
+            padding: 4px;
+            color: white;
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <ul>
+                <a href="aboutme.html" style="font-size: large;">KUBRAT</a>
+                <a href="home.html" style="padding-left: 300px;">HOME</a>
+                <a href="hobbies.html" style="padding-left: 50px;">COMPONENTS</a>
+                <a href="photogallery.html" style="padding-left: 50px;">TYPE & GRID</a>
+                <a href="photogallery.html" style="padding-left: 50px;">CHARTS</a>
+                <a href="contactme.html" style="padding-left: 50px;">BLOG</a>
+            </ul>
+        </nav>
+    </div>
+    <p style="text-align: center;">RECENT POSTS</p>
+
+    <article>
+        <img src="./images/man_with_sea.PNG" alt="man_with_sea's image">
+    </article>
+    <div>
+        <aside>
+
+            <h1> <span>22 DEC </span> A view by sea</h1>
+            <p style="width: 400px;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos pariatur tenetur est laborum. Atque iusto
+                dignissimos aut placeat impedit.
+                Voluptates similique dignissimos consequuntur iste ut eius id saepe maiores animi!
+            </p>
+            <input type="button" value="Continue reading" style="background-color: rgb(74, 87, 204);
+padding: 10px 20px; float: left;">
+        </aside>
+    </div>
+
+    <article style="clear: left;">
+        <img src="./images/sea.PNG" alt="bird's image">
+    </article>
+    <div>
+        <aside>
+
+            <h1> <span>24 DEC </span> Birds fighting</h1>
+            <p style="width: 400px;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos pariatur tenetur est laborum. Atque iusto
+                dignissimos aut placeat impedit.
+                Voluptates similique dignissimos consequuntur iste ut eius id saepe maiores animi!
+            </p>
+            <input type="button" value="Continue reading" style="background-color: rgb(74, 87, 204);
+padding: 10px 20px; float: left;">
+        </aside>
+    </div>
+    <div style="clear: left;">
+        <input type="button" value=">>">
+        <input type="button" value="2">
+        <input type="button" value="1">
+        <input type="button" value="<<">
+
+    </div>
+</body>
+
+</html>
